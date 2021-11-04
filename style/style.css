@@ -49,8 +49,18 @@ table {
 tr td:not(:first-of-type) {
   text-align: center;
 }
-@media (max-width: 900px){
-  table{
+
+#trh2 {
+  width: 10%;
+  text-align: left;
+  padding-left: 35px;
+}
+
+@media (max-width: 900px) {
+  table {
     width: 900px;
+  }
+  #trh2 {
+    padding-left: 17px;
   }
 }
